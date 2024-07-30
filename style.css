@@ -14,6 +14,7 @@ main {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    font-family: "Bai Jamjuree", sans-serif;;
 }
 
 header {
@@ -25,19 +26,15 @@ header {
     padding-top: 80px;
 }
 
-#svg1 {
-    height: 300px;
-    width: 300px;
-}
-
 h1 {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 220px;
+    padding-right: 220px;
+    color: hsl(210, 10%, 33%);
 }
 
 #p1 {
-    padding-left: 315px;
-    padding-right: 315px;
+    padding-left: 251px;
+    padding-right: 251px;
 }
 
 #AlinharL {
@@ -46,8 +43,8 @@ h1 {
 
 #Lheader {
     background-color: hsl(171, 66%, 44%);
-    width: 200px;
-    margin-left: 351px;
+    width: 250px;
+    margin-left: 180px;
     margin-bottom: 15px;
     border-radius: 20px;
     padding: 8px;
@@ -55,43 +52,56 @@ h1 {
 
 a {
     text-decoration: none;
-    color: white;
+    color: hsl(0, 0%, 100%);
 }
 
 #Lheader1 {
     background-color: hsl(233, 100%, 69%);
-    width: 200px;
-    margin-left: 351px;
+    width: 250px;
+    margin-left: 180px;
     border-radius: 20px;
     padding: 8px;
 }
 
+#Tamanho1 {
+    width: 300px;
+}
+
+#Tamanho2 {
+    width: 290px;
+}
+
 h2 {
-    padding-left: 320px;
-    padding-right: 320px;
-    margin-top: 150px;
+    padding: 90px 230px 0px 230px;
+    color: hsl(210, 10%, 33%);
+}
+
+h3 {
+    color: hsl(210, 10%, 33%);
 }
 
 p {
-    padding-left: 320px;
-    padding-right: 320px;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    padding: 15px 230px 30px 230px;
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
 }
 
 #p2 {
-    padding-left: 330px;
-    padding-right: 330px;
-}
-
-#p3 {
-    padding-left: 310px;
-    padding-right: 325px;
+    padding-left: 240px;
+    padding-right: 240px;
 }
 
 .paddingP {
-    padding-left: 310px;
-    padding-right: 310px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#Icon1 {
+    padding-top: 80px;
+}
+
+.IconsFim {
+    padding-bottom: 60px;
 }
 
 footer {
