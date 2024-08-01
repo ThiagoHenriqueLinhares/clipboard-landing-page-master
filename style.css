@@ -27,21 +27,16 @@ header {
 }
 
 h1 {
-    padding-left: 220px;
-    padding-right: 220px;
+    padding-left: 120px;
+    padding-right: 120px;
     color: hsl(210, 10%, 33%);
 }
 
-#p1 {
-    padding-left: 251px;
-    padding-right: 251px;
-}
-
-#AlinharL {
+.AlinharL {
     padding-top: 5px;
 }
 
-#Lheader {
+.lConfig {
     background-color: hsl(171, 66%, 44%);
     width: 250px;
     margin-left: 180px;
@@ -55,7 +50,7 @@ a {
     color: hsl(0, 0%, 100%);
 }
 
-#Lheader1 {
+.lConfig1 {
     background-color: hsl(233, 100%, 69%);
     width: 250px;
     margin-left: 180px;
@@ -72,7 +67,7 @@ a {
 }
 
 h2 {
-    padding: 90px 230px 0px 230px;
+    padding: 90px 120px 0px 120px;
     color: hsl(210, 10%, 33%);
 }
 
@@ -81,14 +76,9 @@ h3 {
 }
 
 p {
-    padding: 15px 230px 30px 230px;
+    padding: 15px 168px 30px 168px;
     color: hsl(201, 11%, 66%);
     font-size: 14px;
-}
-
-#p2 {
-    padding-left: 240px;
-    padding-right: 240px;
 }
 
 .paddingP {
@@ -104,18 +94,43 @@ p {
     padding-bottom: 60px;
 }
 
+#SpaceBottom {
+    margin-bottom: 130px;
+}
+
 footer {
-    background-color: hsl(201, 11%, 66%);
+    background-color: hsla(0, 0%, 89%, 0.466);
+}
+
+#AjustesL{
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#Espaco {
+    margin-bottom: 45px;
 }
 
 .Lfooter {
     margin-bottom: 15px;
     text-decoration: none;
     display: block;
+    color: gray;
 }
 
 .AlinharIcon {
-    margin-left: 24px;
+    margin-left: 15px;
+}
+
+.ConfigBottom {
+    padding-bottom: 30px;
+}
+
+#Afastar {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 31px;
 }
 
 .iconf {
