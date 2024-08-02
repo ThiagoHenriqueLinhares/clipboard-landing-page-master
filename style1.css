@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Bai Jamjuree", sans-serif;;
+
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+}
+
+header {
+    padding-top: 80px;
+    
+}
+
+#IconHeader {
+    margin-bottom: 25px;
+    height: 80px;
+}
+
+h1 {
+    color: hsl(210, 10%, 33%);
+}
+
+.lConfig {
+    background-color: hsl(171, 66%, 44%);
+    width: 250px;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.lConfig1 {
+    background-color: hsl(233, 100%, 69%);
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+Tamanho1 {
+    width: 300px;
+}
+
+#Tamanho2 {
+    width: 290px;
+}
+
+h2 {
+    color: hsl(210, 10%, 33%);
+}
+
+h3 {
+    color: hsl(210, 10%, 33%);
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+}
+
+footer {
+    background-color: hsla(0, 0%, 89%, 0.301);
+}
+
+#AjustesL{
+    height: 40px;
+}
+
+.Lfooter {
+    text-decoration: none;
+    font-weight: 600;
+    color: gray;
+}
