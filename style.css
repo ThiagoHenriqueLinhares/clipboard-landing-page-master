@@ -10,18 +10,33 @@ body {
     text-align: center;
     font-family: "Bai Jamjuree", sans-serif;;
 
-    background-image: url(images/bg-header-mobile.png);
+    background-image: url(images/bg-header-desktop.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 header {
-    padding-top: 80px;
+    margin-top: 7.5rem;
+}
+
+.flex-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin-align {
+    margin-top: 7rem;
+}
+
+.flex-icon {
+    display: flex;
+    justify-content: center;
 }
 
 #IconHeader {
     margin-bottom: 50px;
-    height: 105px;
+    height: 100px;
 }
 
 h1 {
@@ -34,13 +49,22 @@ h1 {
     padding-top: 5px;
 }
 
+.flex-align {
+    display: flex;
+    justify-content: center;
+}
+
+.width-change {
+    width: 205px;
+}
+
 .lConfig {
     background-color: hsl(171, 66%, 44%);
-    width: 250px;
+    width: 190px;
     margin-left: 60px;
     margin-bottom: 15px;
-    border-radius: 20px;
-    padding: 8px;
+    border-radius: 60px;
+    padding: 10px 0px;
 }
 
 a {
@@ -50,14 +74,15 @@ a {
 
 .lConfig1 {
     background-color: hsl(233, 100%, 69%);
-    width: 250px;
+    width: 190px;
     margin-left: 60px;
-    border-radius: 20px;
-    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 60px;
+    padding: 10px 0px;
 }
 
 #Tamanho1 {
-    width: 300px;
+    width: 500px;
 }
 
 #Tamanho2 {
