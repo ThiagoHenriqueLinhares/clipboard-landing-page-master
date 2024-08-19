@@ -8,11 +8,12 @@ body {
     height: 100vh;
     background-color: rgb(255, 255, 255);
     text-align: center;
-    font-family: "Bai Jamjuree", sans-serif;;
+    font-family: "Bai Jamjuree", sans-serif;
 
     background-image: url(images/bg-header-desktop.png);
     background-repeat: no-repeat;
     background-size: contain;
+
 }
 
 header {
@@ -49,9 +50,15 @@ h1 {
     padding-top: 5px;
 }
 
+.AlinharL p {
+    width: 600px;
+    margin: auto;
+}
+
 .flex-align {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .width-change {
@@ -81,12 +88,40 @@ a {
     padding: 10px 0px;
 }
 
+.p1 {
+    width: 660px;
+    margin: auto;
+}
+
+.image {
+    justify-content: space-around;
+}
+
 #Tamanho1 {
+    min-width: 600px;
+}
+
+.align-content {
+    margin-top: 70px;
+}
+
+.align-content h3 {
+    text-align: left;
+}
+
+.align-content p {
     width: 500px;
+    text-align: justify;
 }
 
 #Tamanho2 {
-    width: 290px;
+    width: 600px;
+    margin-top: 40px;
+}
+
+.Organizar {
+    column-count: 3;
+    margin-top: 30px;
 }
 
 h2 {
@@ -103,6 +138,10 @@ p {
     padding: 15px 52px 30px 52px;
     color: hsl(201, 11%, 66%);
     font-size: 14px;
+}
+
+.columns-icons {
+    column-count: 5;
 }
 
 #Icon1 {
